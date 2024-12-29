@@ -7,7 +7,7 @@
   "tilesetId": "",
   "width": 20,
   "height": 18,
-  "type": "LOGO",
+  "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
   "collisions": "",

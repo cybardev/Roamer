@@ -17,6 +17,14 @@
   "y": 40,
   "script": [
     {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "da217fdd-67bd-4ba5-8384-150f63938d87",
+        "__collapse": true
+      },
+      "id": "4ab684d5-73fd-41c4-ac26-5293dbbd7850"
+    },
+    {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$",
@@ -82,14 +90,6 @@
         "__collapse": true
       },
       "id": "00605731-3c89-4583-9360-c7911bd52a03"
-    },
-    {
-      "command": "EVENT_MUSIC_PLAY",
-      "args": {
-        "musicId": "da217fdd-67bd-4ba5-8384-150f63938d87",
-        "__collapse": true
-      },
-      "id": "4ab684d5-73fd-41c4-ac26-5293dbbd7850"
     }
   ],
   "playerHit1Script": [],

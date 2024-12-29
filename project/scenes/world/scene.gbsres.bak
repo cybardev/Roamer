@@ -17,65 +17,38 @@
   "y": 40,
   "script": [
     {
-      "command": "EVENT_IF_INPUT",
+      "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
           "start"
         ],
-        "__collapseElse": true,
-        "__collapse": true
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": false
       },
       "children": {
         "true": [
           {
-            "command": "EVENT_SET_INPUT_SCRIPT",
+            "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "input": [
-                "b"
-              ],
-              "override": true,
-              "__scriptTabs": "press"
+              "sceneId": "255c59a5-a143-425a-be22-d583c2c98c53",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": 3,
+              "__collapse": true
             },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_SWITCH_SCENE",
-                  "args": {
-                    "sceneId": "46ac60ee-0b20-4888-b66a-ec5c30b9b6b1",
-                    "x": {
-                      "type": "number",
-                      "value": 0
-                    },
-                    "y": {
-                      "type": "number",
-                      "value": 0
-                    },
-                    "direction": "",
-                    "fadeSpeed": "2",
-                    "__collapse": true
-                  },
-                  "id": "a74d6a86-54e1-43ba-9336-b7f6fca2b978"
-                }
-              ]
-            },
-            "id": "d29546a5-1b1f-4f92-8b60-daf6470fffa0"
+            "id": "a74d6a86-54e1-43ba-9336-b7f6fca2b978"
           }
-        ],
-        "false": []
+        ]
       },
-      "id": "58ee3431-4dd8-4e5f-bc5b-0849ff5ad276"
-    },
-    {
-      "command": "EVENT_TEXT_DRAW",
-      "args": {
-        "text": "SCORE: %D7$00$",
-        "x": 0,
-        "y": 17,
-        "location": "background",
-        "__collapse": true,
-        "__comment": true
-      },
-      "id": "e45ae0e9-b9f8-47af-81e0-f14db5208e1b"
+      "id": "d29546a5-1b1f-4f92-8b60-daf6470fffa0"
     }
   ],
   "playerHit1Script": [
@@ -115,7 +88,7 @@
         },
         "direction": "",
         "fadeSpeed": 3,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "c0baea95-f521-4e1f-93c9-d719996e9ebc"
     }

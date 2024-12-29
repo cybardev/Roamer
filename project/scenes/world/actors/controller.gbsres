@@ -26,13 +26,6 @@
       "id": "02f27076-b0bd-4f86-9595-8372a56d4085"
     },
     {
-      "command": "EVENT_MUSIC_STOP",
-      "args": {
-        "__collapse": true
-      },
-      "id": "ebf00840-0697-4d46-8e67-fbac2d922a0e"
-    },
-    {
       "command": "EVENT_TEXT_DRAW",
       "args": {
         "text": "SCORE: %D7$00$",
@@ -48,7 +41,8 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Player",
-        "__collapse": true
+        "__collapse": false,
+        "__comment": true
       },
       "children": {
         "true": [
@@ -174,7 +168,7 @@
           {
             "command": "EVENT_WAIT",
             "args": {
-              "time": 2,
+              "time": 0.2,
               "frames": 30,
               "__collapse": true
             },

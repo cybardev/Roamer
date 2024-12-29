@@ -81,6 +81,14 @@
         "__collapse": true
       },
       "id": "3c660dbb-8acc-4982-8c27-ac011e8ca939"
+    },
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {
+        "__collapse": true,
+        "__comment": false
+      },
+      "id": "8d2ab8d1-22c4-43f2-8e48-a1e730a0768f"
     }
   ],
   "playerHit1Script": [],
