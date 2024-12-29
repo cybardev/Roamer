@@ -1,0 +1,20 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "Score",
+      "symbol": "var_score"
+    },
+    {
+      "id": "1",
+      "name": "Variable 1",
+      "symbol": "var_variable_1"
+    },
+    {
+      "id": "7de4958d-ff2d-44cf-a73c-b4d66d886362__L0",
+      "name": "RandomXpos",
+      "symbol": "var_randomxpos"
+    }
+  ]
+}

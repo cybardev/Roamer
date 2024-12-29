@@ -1,0 +1,91 @@
+{
+  "_resourceType": "scene",
+  "id": "255c59a5-a143-425a-be22-d583c2c98c53",
+  "_index": 2,
+  "name": "GameOver",
+  "backgroundId": "aae16c03-b192-4d04-b4d1-331b2317e422",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_3",
+  "x": 488,
+  "y": 40,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "ca23c6d7-3a3a-4183-8594-f83a2c302146"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b",
+          "a",
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "46ac60ee-0b20-4888-b66a-ec5c30b9b6b1",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2",
+              "__collapse": false
+            },
+            "id": "15e3352c-8743-4fd4-bbb9-6512ee98481a"
+          }
+        ]
+      },
+      "id": "43876e38-63df-4cf5-ada4-ab26b1e8f011"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "GAME  OVER",
+        "x": 5,
+        "y": 6,
+        "location": "background",
+        "__collapse": true
+      },
+      "id": "05ad8ed7-06ed-4b58-98d5-fe52900fa25d"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "SCORE: %D7$00$",
+        "x": 3,
+        "y": 10,
+        "location": "background",
+        "__collapse": true
+      },
+      "id": "3c660dbb-8acc-4982-8c27-ac011e8ca939"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "f7c2941d-b522-41d8-a797-b5dced21f5cc"
+}

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "f2055cbb-2904-4cb4-9251-e73c8c400ca6",
+  "name": "main-menu",
+  "symbol": "bg_stars_small_copy",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "main-menu.png",
+  "tileColors": ""
+}

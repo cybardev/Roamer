@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "6bee4b82-3fff-45c4-b786-5dd2949abee7",
+  "name": "stars",
+  "symbol": "bg_leaving_earth",
+  "width": 255,
+  "height": 18,
+  "imageWidth": 2040,
+  "imageHeight": 144,
+  "filename": "stars.png",
+  "tileColors": "",
+  "autoColor": false
+}
