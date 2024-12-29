@@ -4,7 +4,7 @@
   "startX": 0,
   "startY": 0,
   "startMoveSpeed": 1,
-  "startAnimSpeed": 255,
+  "startAnimSpeed": 31,
   "startDirection": "up",
   "showCollisionExtraTiles": false,
   "sgbEnabled": false,

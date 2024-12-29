@@ -4,7 +4,7 @@
   "name": "Controller",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+  "spriteSheetId": "30cb3773-4e87-44f0-b6e5-4e43434a7a2d",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -101,7 +101,7 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Enemy",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -140,7 +140,7 @@
             "command": "EVENT_LAUNCH_PROJECTILE",
             "args": {
               "__section": "projectile",
-              "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+              "spriteSheetId": "30cb3773-4e87-44f0-b6e5-4e43434a7a2d",
               "spriteStateId": "",
               "actorId": "0",
               "x": 0,
@@ -153,7 +153,7 @@
               "targetActorId": "$self$",
               "initialOffset": 0,
               "speed": 1,
-              "animSpeed": 63,
+              "animSpeed": 31,
               "lifeTime": 4,
               "loopAnim": true,
               "destroyOnHit": true,
@@ -170,7 +170,7 @@
             "args": {
               "time": 0.2,
               "frames": 30,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "edc72dcf-7233-4ff5-91cc-20abb7456add"
           }
@@ -187,13 +187,21 @@
       "id": "66818ba3-f9dc-467c-8b85-baf4be8bdda1"
     },
     {
+      "command": "EVENT_GBVM_SCRIPT",
+      "args": {
+        "script": "/002/002",
+        "__collapse": true
+      },
+      "id": "c8f60cf0-0f79-4ee2-a86d-bf4772028b7a"
+    },
+    {
       "command": "EVENT_TEXT_DRAW",
       "args": {
         "text": "SCORE: %D7$00$",
         "x": 0,
         "y": 17,
         "location": "background",
-        "__collapse": true,
+        "__collapse": false,
         "__comment": false
       },
       "id": "00d5d770-6fc5-4ad9-a778-f92c8520aed6"

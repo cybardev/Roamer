@@ -17,6 +17,14 @@
   "y": 40,
   "script": [
     {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "da217fdd-67bd-4ba5-8384-150f63938d87",
+        "__collapse": true
+      },
+      "id": "4ab684d5-73fd-41c4-ac26-5293dbbd7850"
+    },
+    {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$",
@@ -77,19 +85,22 @@
       "args": {
         "text": "Roamer",
         "x": 7,
-        "y": 7,
+        "y": 6,
         "location": "background",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "00605731-3c89-4583-9360-c7911bd52a03"
     },
     {
-      "command": "EVENT_MUSIC_PLAY",
+      "command": "EVENT_TEXT_DRAW",
       "args": {
-        "musicId": "da217fdd-67bd-4ba5-8384-150f63938d87",
+        "text": "Press  A",
+        "x": 6,
+        "y": 11,
+        "location": "background",
         "__collapse": true
       },
-      "id": "4ab684d5-73fd-41c4-ac26-5293dbbd7850"
+      "id": "1bd0965a-b081-4aa9-a0a3-81332ade51d6"
     }
   ],
   "playerHit1Script": [],

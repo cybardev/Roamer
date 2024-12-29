@@ -13,8 +13,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_2",
-  "x": 280,
-  "y": 40,
+  "x": 72,
+  "y": 224,
   "script": [
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -24,7 +24,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -96,5 +96,5 @@
   "playerHit2Script": [],
   "playerHit3Script": [],
   "autoFadeEventCollapse": true,
-  "playerSpriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
+  "playerSpriteSheetId": "51c90b0b-6fbd-4969-9f37-d7cae9238359"
 }

@@ -13,7 +13,7 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_3",
-  "x": 488,
+  "x": 280,
   "y": 40,
   "script": [
     {
@@ -65,7 +65,7 @@
       "args": {
         "text": "GAME  OVER",
         "x": 5,
-        "y": 6,
+        "y": 4,
         "location": "background",
         "__collapse": true
       },
@@ -76,11 +76,22 @@
       "args": {
         "text": "SCORE: %D7$00$",
         "x": 3,
-        "y": 10,
+        "y": 8,
         "location": "background",
         "__collapse": true
       },
       "id": "3c660dbb-8acc-4982-8c27-ac011e8ca939"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Press  A",
+        "x": 6,
+        "y": 12,
+        "location": "background",
+        "__collapse": true
+      },
+      "id": "b18b2fde-7431-4f5e-bff0-400055ccd39e"
     },
     {
       "command": "EVENT_MUSIC_STOP",
