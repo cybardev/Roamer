@@ -49,6 +49,14 @@
         ]
       },
       "id": "d29546a5-1b1f-4f92-8b60-daf6470fffa0"
+    },
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {
+        "__collapse": true,
+        "__comment": false
+      },
+      "id": "5e1a5e42-629d-4623-9904-ab6dd9725f1a"
     }
   ],
   "playerHit1Script": [

@@ -5,7 +5,7 @@
   "symbol": "sprite_asteroid",
   "numFrames": 2,
   "filename": "asteroid.png",
-  "checksum": "c04e7731e4dbda43e0b1e652d93e8b53d9e6989c",
+  "checksum": "ce94f8ac73e66f3a400d0f5ef375bd0a0b8f9c6d",
   "width": 32,
   "height": 16,
   "states": [

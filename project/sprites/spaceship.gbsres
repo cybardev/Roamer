@@ -5,7 +5,7 @@
   "symbol": "sprite_spaceship",
   "numFrames": 3,
   "filename": "spaceship.png",
-  "checksum": "a52cd5bbebd2535ec1033827d90889e69e5ff1bd",
+  "checksum": "728bdf9c035ab2442c3e1b59a1e12db87db0ff48",
   "width": 48,
   "height": 16,
   "states": [

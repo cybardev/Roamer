@@ -67,7 +67,7 @@
         "x": 5,
         "y": 4,
         "location": "background",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "05ad8ed7-06ed-4b58-98d5-fe52900fa25d"
     },
@@ -76,7 +76,7 @@
       "args": {
         "text": "SCORE: %D7$00$",
         "x": 3,
-        "y": 10,
+        "y": 8,
         "location": "background",
         "__collapse": true
       },
@@ -87,7 +87,7 @@
       "args": {
         "text": "Press  A",
         "x": 6,
-        "y": 13,
+        "y": 12,
         "location": "background",
         "__collapse": true
       },
