@@ -92,6 +92,94 @@
         "__collapse": true
       },
       "id": "b18b2fde-7431-4f5e-bff0-400055ccd39e"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": true,
+        "__label": "EndGame Music"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "167dc89a-6c86-4893-a670-d9b82a84be88",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 2
+            },
+            "id": "e7c3b2af-82a8-4d57-8002-c464b3a76c76"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.6,
+              "frames": 30
+            },
+            "id": "43dffcbf-23e0-4a47-aefe-129836efa43e"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "167dc89a-6c86-4893-a670-d9b82a84be88",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 4
+            },
+            "id": "fe24ea21-1e38-47c4-b00a-7665cbf81c4b"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.3,
+              "frames": 30
+            },
+            "id": "fd2b32fc-1e49-45de-8886-ccdf595ad385"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "167dc89a-6c86-4893-a670-d9b82a84be88",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 1
+            },
+            "id": "e399ace8-a02f-4f12-93b5-7d2909df2823"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.3,
+              "frames": 30
+            },
+            "id": "6a83b541-75c9-4576-b217-246127a3cb49"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "167dc89a-6c86-4893-a670-d9b82a84be88",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0
+            },
+            "id": "cb0ebdee-5d9f-47eb-b60e-9f86e919a9d6"
+          }
+        ]
+      },
+      "id": "f010716c-038c-4a16-9cd1-361f4744a32c"
     }
   ],
   "playerHit1Script": [],
