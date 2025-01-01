@@ -92,19 +92,11 @@
         "__collapse": true
       },
       "id": "b18b2fde-7431-4f5e-bff0-400055ccd39e"
-    },
-    {
-      "command": "EVENT_MUSIC_STOP",
-      "args": {
-        "__collapse": true,
-        "__comment": false
-      },
-      "id": "8d2ab8d1-22c4-43f2-8e48-a1e730a0768f"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
   "autoFadeEventCollapse": true,
-  "playerSpriteSheetId": "f7c2941d-b522-41d8-a797-b5dced21f5cc"
+  "playerSpriteSheetId": "22a6ce16-1b2e-4c7e-8754-a26b2c03bf90"
 }
