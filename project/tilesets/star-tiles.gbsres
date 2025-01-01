@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "545c5ea2-93a2-4b2a-8a70-5e4c43d0ab6d",
+  "name": "star-tiles",
+  "symbol": "tileset_star_tiles",
+  "width": 6,
+  "height": 1,
+  "imageWidth": 48,
+  "imageHeight": 8,
+  "filename": "star-tiles.png"
+}

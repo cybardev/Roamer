@@ -15,6 +15,56 @@
       "id": "7de4958d-ff2d-44cf-a73c-b4d66d886362__L0",
       "name": "RandomXpos",
       "symbol": "var_randomxpos_0"
+    },
+    {
+      "id": "46ac60ee-0b20-4888-b66a-ec5c30b9b6b1__L0",
+      "name": "Star-M",
+      "symbol": "var_star_m"
+    },
+    {
+      "id": "46ac60ee-0b20-4888-b66a-ec5c30b9b6b1__L1",
+      "name": "Star-S",
+      "symbol": "var_star_s"
+    },
+    {
+      "id": "46ac60ee-0b20-4888-b66a-ec5c30b9b6b1__L2",
+      "name": "Star-XS",
+      "symbol": "var_star_xs_0"
+    },
+    {
+      "id": "46ac60ee-0b20-4888-b66a-ec5c30b9b6b1__L3",
+      "name": "Star-L",
+      "symbol": "var_star_l"
+    },
+    {
+      "id": "f090c199-a328-4640-85a1-2e1e97f38ad7__L0",
+      "name": "Star-M",
+      "symbol": "var_star_m_0"
+    },
+    {
+      "id": "f090c199-a328-4640-85a1-2e1e97f38ad7__L1",
+      "name": "Star-S",
+      "symbol": "var_star_s_0"
+    },
+    {
+      "id": "f090c199-a328-4640-85a1-2e1e97f38ad7__L2",
+      "name": "Star-XS",
+      "symbol": "var_star_xs"
+    },
+    {
+      "id": "f090c199-a328-4640-85a1-2e1e97f38ad7__L3",
+      "name": "Star-L",
+      "symbol": "var_star_l_0"
+    },
+    {
+      "id": "f090c199-a328-4640-85a1-2e1e97f38ad7__L4",
+      "name": "star-frame",
+      "symbol": "var_star_frame"
+    },
+    {
+      "id": "46ac60ee-0b20-4888-b66a-ec5c30b9b6b1__L4",
+      "name": "star-frame",
+      "symbol": "var_star_frame_0"
     }
   ]
 }

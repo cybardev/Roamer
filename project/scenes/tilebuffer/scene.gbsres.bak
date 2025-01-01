@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "4d870d86-088e-4ff2-b2c3-4c8a3a10292a",
+  "_index": 3,
+  "name": "tileBuffer",
+  "backgroundId": "fb5c79f1-bf2a-42c7-8dcd-3666e1f941ab",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "LOGO",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_4",
+  "x": 280,
+  "y": 224,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
