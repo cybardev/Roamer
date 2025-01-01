@@ -1,3 +1,11 @@
+# build/
+cache/
+
+*.bak
+*.sav
+*.icloud
+
+user_settings.gbsres
+
 # macOS artifacts
 **/.DS_Store
-
