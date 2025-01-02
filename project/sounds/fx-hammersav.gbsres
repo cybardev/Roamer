@@ -1,0 +1,9 @@
+{
+  "_resourceType": "sound",
+  "id": "cb92e55f-0292-4003-9b0a-ebdcda826001",
+  "name": "FX-Hammer.sav",
+  "symbol": "sound_fx_hammer_sav",
+  "filename": "FX-Hammer.sav",
+  "type": "fxhammer",
+  "numEffects": 18
+}

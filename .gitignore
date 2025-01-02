@@ -1,6 +1,7 @@
 # build/
 cache/
 
+*.zip
 *.bak
 *.sav
 *.icloud
@@ -9,3 +10,7 @@ user_settings.gbsres
 
 # macOS artifacts
 **/.DS_Store
+
+# track SFX file
+!assets/sounds/*.sav
+
