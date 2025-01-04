@@ -191,22 +191,64 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_SWITCH_SCENE",
+            "command": "EVENT_MENU",
             "args": {
-              "sceneId": "255c59a5-a143-425a-be22-d583c2c98c53",
-              "x": {
-                "type": "number",
-                "value": 0
-              },
-              "y": {
-                "type": "number",
-                "value": 0
-              },
-              "direction": "",
-              "fadeSpeed": 3,
-              "__collapse": true
+              "variable": "L5",
+              "items": 2,
+              "option1": "Continue",
+              "option2": "End Game",
+              "option3": "",
+              "option4": "",
+              "option5": "",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": true,
+              "layout": "dialogue",
+              "cancelOnLastOption": false
             },
-            "id": "a74d6a86-54e1-43ba-9336-b7f6fca2b978"
+            "id": "e766852c-ae3d-4b64-9d1b-71297fc73827"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L5"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 2
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "255c59a5-a143-425a-be22-d583c2c98c53",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "direction": "",
+                    "fadeSpeed": 3,
+                    "__collapse": true
+                  },
+                  "id": "a74d6a86-54e1-43ba-9336-b7f6fca2b978"
+                }
+              ],
+              "false": []
+            },
+            "id": "1580d00d-4bf6-4b59-b2ec-4c6dd4e0fa59"
           }
         ]
       },
